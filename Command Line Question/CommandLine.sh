@@ -9,8 +9,10 @@ city=$(cut -f10 -d$'\t' correct_merged_courses.tsv | sort | uniq -c | sort -nr |
 echo "The country that offers the majority of masters in the website is $country, while the city is $city"
 
 
-# 2) in this line of code we count in the "duration" column the number of courses which provide part-time education
-#    we retrieve the information from the 9th column and with the command "grep -i" we ignore the case of the string "part time"
+# 2) in this line of code we count in the "duration" column the number of courses which provide part-time education. We believe that it's
+#    better to operate on this column and not with "isitFullTime" one, because if a master gives the opportunity to study both
+#    full and part time, in this last variable the value 'Full Time' will be stored, so "duration" shuould give us more complete info.
+#    We retrieve the information from the 9th column and with the command "grep -i" we ignore the case of the string "part time"
 #    while the regular expression inside the string to retrieve indicates that if part time appears with an ifem ('-') to take it as well.
 #    "wc -l" is the command we use to count.
 
