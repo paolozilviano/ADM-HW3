@@ -1,4 +1,4 @@
-While dealing with the Command Line Question, as every member of this group had Windows OS we used two different machines to do the job.
+While dealing with the Command Line Question, as every member of this group had Windows OS we decided to use two different machines to do the job.
 With the first (a computer from the equipment of via Tiburtina labs) we merged the tsv files; once we uploaded the 6000 tsv documents obtained with the parsing part, we merged them with a single command line as you can see in the provided screenshot (*merging_file_with_Linux_on_Sapienza_computer.png*).
 
 
