@@ -12,8 +12,9 @@ Members of the Group 11:
 
 Here is an overview of the main files in this project repository:
 
-- `main.ipynb`: Jupyter notebook containing the codes and results for the first 4 points of the homework.
+- `main.ipynb`: Jupyter notebook containing the codes and results for the first 4 questions of the homework.
 - `algorithmic_question.ipynb`: Jupyter notebook containing the solution to the algorithmic question.
 - `Command Line Question`: Folder containing all the materials concerning the command-line question.
-- `Screenshots_Q4`: Folder containing the screenshots of the interactive map created for Q4.
+- `Screenshots_Q4`: Folder containing the screenshots of the interactive map created for Q4, since the plot doesn't show on Github.
+- `Q5_Bonus.ipynb`: Jupyter notebook containing the codes and results bonus question (Q5) of the homework.
 - `README.md`: Markdown file with information about the project.
